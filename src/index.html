@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+    <meta
+      content="width=device-width,initial-scale=1,user-scalable=no"
+      name="viewport"
+    />
+    <!-- 移动端开发配置，初始宽度等于设备宽度，初始比例等于1，用户不可手指缩放界面 -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <!-- 苹果设备的网页全屏后行为设置 -->
+
+    <meta name="format-detection" content="telephone=no,address=no" />
+    <!-- 禁止浏览器自动识别页面中的特定样式，比如看起来像电话号码的或者像网址地址的 -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- 对旧版浏览器的支持 -->
+
+    <title>lost-and-found</title>
+
+    <script>
+      <%= htmlWebpackPlugin.options.script %>
+    </script>
+    <!-- 这是一个自动注入 JavaScript 文件的占位符，你无需手动管理和更新 script标签的 src 路径 -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- app挂载点 -->
+  </body>
+</html>
