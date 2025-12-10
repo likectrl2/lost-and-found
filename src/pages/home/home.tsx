@@ -1,5 +1,5 @@
 import { View, Text } from "@tarojs/components";
-import "./index.scss";
+import "./home.scss";
 
 export default function Index() {
   return (
