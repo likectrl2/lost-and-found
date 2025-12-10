@@ -3,8 +3,8 @@ import "./home.scss";
 
 export default function Index() {
   return (
-    <View className="index">
-      <Text>Hello world!</Text>
+    <View className="home-index">
+      <Text>主页</Text>
     </View>
   );
 }
